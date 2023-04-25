@@ -1,0 +1,78 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background: #11151d;
+    color: #dddddd;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+a {
+    color: #00b15edd;
+    font-weight: 800;
+    font-style: oblique;
+    font-display: flex;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+table {
+    border: 2px solid #1d1d1d;
+    border-radius: 10px;
+    font-style: oblique;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+td {
+    padding-left: 5vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.forma {
+    padding: 3px;
+}
+
+.btnSumbit {
+    background-color: #00b15edd;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+label {
+    font-weight: 600;
+}
+
+.card {
+    padding: 20px;
+    background: #0c0f14;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.top {
+    display: flex;
+}
+
+.headCard {
+    
+    padding: 10px;
+}
+
+h1 {
+    height: 20px;
+}

@@ -6,65 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My first resume">
     <meta name="keywords" content="Content, creative">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Resume / Резюме Бут-Гусаима Кирилла</title>
 </head>
 <body>
-    <img src="https://sun9-8.userapi.com/impg/c857632/v857632748/1467b3/i2fa-utY9YI.jpg?size=1200x1600&quality=96&sign=b46e9a7cc7aa0035b868914bb95382f3&type=album" width="150" alt="Фотография">
-    <h1><strong>Бут-Гусаим Кирилл</strong></h1>
-    <p>Начал учить программирование, а также прохожу курсы по <strong>Python, Machine learning, Frontend разработка</strong></p>
-    <p>В будующем планирую <em>саморазвиваться</em></p>
-    <h3>Социальные сети</h3>
-    <a href="https://vk.com/idkirill28102004" target="_blank">VK</a>
-    |
-    <a href="https://www.instagram.com/28_nyarvoviia_driziki/?next=%2F" target="_blank">Instagram</a>
-    <h2>Мои интересы</h2>
-    <ul>
-        <li>Программирование</li>
-        <li>Воллейбол</li>
-        <li>Саморазвитие</li>
-    </ul>
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <td>Название</td>
-            <td>Должность</td>
-            <td>Срок</td>
-        </tr>
-        <tr>
-            <td>Разнорабочий</td>
-            <td>Помощьник</td>
-            <td>1 месяц</td>
-        </tr>
-        <tr>
-            <td>Брсм</td>
-            <td>Секретарь</td>
-            <td>6 месяцев</td>
-        </tr>
-    </table>
-    <h2>Связаться со мной</h2>
-    <form action="/">
-        <div>
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" placeholder="Введите имя">
+    <div class="top">
+        <div class="headCard"><img src="https://sun9-8.userapi.com/impg/c857632/v857632748/1467b3/i2fa-utY9YI.jpg?size=1200x1600&quality=96&sign=b46e9a7cc7aa0035b868914bb95382f3&type=album" width="150" alt="Фотография"></div>
+        <div class="headCard"><h1><strong>Бут-Гусаим Кирилл</strong></h1>
+            <p>Начал учить программирование, а также прохожу курсы по <strong>Python, Machine learning, Frontend разработка</strong></p>
+            <p>В будующем планирую <em>саморазвиваться</em></p>
+            <h3>Социальные сети</h3>
+            <a href="https://vk.com/idkirill28102004" target="_blank">VK</a>
+            |
+            <a href="https://www.instagram.com/28_nyarvoviia_driziki/?next=%2F" target="_blank">Instagram</a>
         </div>
-        <div>
-            <label for="email">Ваше email</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="message">Ваше сообщение</label>
-            <br>
-            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
-        </div>
-        <div>
-            <br>
-            <button type="submit">Отправить</button>
-        </div>
+    </div>
+    <div class="card">
+        <h2>Мои интересы</h2>
+        <ul>
+            <li>Программирование</li>
+            <li>Воллейбол</li>
+          <li>Саморазвитие</li>
+        </ul>
+    </div>
+    <div class="card">
+        <h2>Опыт работы</h2>
+        <table>
+            <tr>
+                <td>Название</td>
+                <td>Должность</td>
+                <td>Срок</td>
+            </tr>
+            <tr>
+                <td>Разнорабочий</td>
+                <td>Помощьник</td>
+                <td>1 месяц</td>
+            </tr>
+            <tr>
+                <td>Брсм</td>
+                <td>Секретарь</td>
+                <td>6 месяцев</td>
+            </tr>
+        </table>
+    </div>
+    <div class="card">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+            <div class="forma">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="forma">
+                <label for="email">Ваше email</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+            <div class="forma">
+                <label for="message">Ваше сообщение</label>
+                <br>
+                <br>
+                <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+            <div class="forma">
+                <button type="submit" class="btnSumbit">Отправить</button>
+            </div>
     </form>
-    .body {
-background: #1d1d1d;
-}
-
+    </div>
 </body>
 </html>
