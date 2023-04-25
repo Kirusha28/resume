@@ -6,6 +6,11 @@ body {
     color: #dddddd;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
 ::placeholder {
     font-style: italic;
 }
@@ -32,7 +37,7 @@ table {
 }
 
 td {
-    padding-left: 5vh;
+    margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -57,11 +62,12 @@ label {
 }
 
 .card {
+    margin-top: 10px;
+    margin-left: 10px;
     padding: 20px;
     background: #0c0f14;
     border: none;
     border-radius: 10px;
-    margin: 10px;
 }
 
 .top {
@@ -69,10 +75,20 @@ label {
 }
 
 .headCard {
-    
-    padding: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 h1 {
+    display: block;
+    margin: 0;
+    padding-bottom: 30px;
     height: 20px;
+}
+.headCard img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.card:first-child h2, ul{
+    margin-left: 40%;
 }
