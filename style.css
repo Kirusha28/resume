@@ -4,6 +4,8 @@ body {
     font-weight: 100;
     background: #11151d;
     color: #dddddd;
+    padding: 0px;
+    margin: 0px;
 }
 
 .container {
@@ -20,6 +22,8 @@ a {
     font-weight: 800;
     font-style: oblique;
     font-display: flex;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 p {
@@ -37,13 +41,7 @@ table {
 }
 
 td {
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.forma {
-    padding: 3px;
+    padding: 5px;
 }
 
 .btnSumbit {
@@ -55,10 +53,6 @@ td {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-}
-
-label {
-    font-weight: 600;
 }
 
 .card {
@@ -92,30 +86,26 @@ h1 {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-.card:first-child h2, ul{
-    margin-left: 40%;
+.card:first-child h2{
+    text-align: center;
 }
 
 .headCard:nth-child(2) {
     margin-left: 10px;
 }
 
-.headCard a {
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-}
-
-.headCard a:hover {
+a:hover {
     text-decoration: underline;
     color: #00ff88dd;
     font-size: 2em;
 }
 
-.headCard a:active {
+a:active {
     color: #007940dd;
 }
 
 .btnSumbit {
+    margin-top: 10px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -123,4 +113,69 @@ h1 {
     background: #00ff88dd;
     border-radius: 50px;
     text-decoration: underline;
+}
+
+tr:nth-child(1) {
+    background: #232c3d;
+}
+
+.forma {
+    display: inline-block;
+}
+
+.forma:nth-child(3) {
+    display: block;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.forma label {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    height: 30px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.forma:nth-child(3) label {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+}
+
+@media (max-width: 650px) {
+    .headCard h1 {
+        font-size: 4vh;
+    }
+}
+
+@media (max-width: 580px) {
+    .headCard h1 {
+        font-size: 3vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .top {
+        display: block;
+    }
+
+    .headCard img {
+        width: 97%;
+    }
 }
