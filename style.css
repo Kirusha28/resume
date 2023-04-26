@@ -50,7 +50,7 @@ td {
     background-color: #00b15edd;
     width: 200px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -84,11 +84,43 @@ h1 {
     margin: 0;
     padding-bottom: 30px;
     height: 20px;
+    font-size: 2.5em;
 }
+
 .headCard img {
     border-radius: 10px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
+
 .card:first-child h2, ul{
     margin-left: 40%;
+}
+
+.headCard:nth-child(2) {
+    margin-left: 10px;
+}
+
+.headCard a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.headCard a:hover {
+    text-decoration: underline;
+    color: #00ff88dd;
+    font-size: 2em;
+}
+
+.headCard a:active {
+    color: #007940dd;
+}
+
+.btnSumbit {
+    transition: all 0.5s ease-in-out;
+}
+
+.btnSumbit:hover {
+    background: #00ff88dd;
+    border-radius: 50px;
+    text-decoration: underline;
 }
